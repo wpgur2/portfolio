@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="loading-screen">
+            <div id="loading-spinner"></div>
+            <span>Loading...</span>
+        </div>
+        <!--loading-screen end-->
+
+        <header>
+            <ul class="gnb">
+                <li><a class=active href="#home" title="HOME">HOME</a></li>
+                <li><a href="#about" title="ABOUT">ABOUT</a></li>
+                <li><a href="#skill" title="SKILL">SKILL</a></li>
+                <li><a href="#portfolio" title="WORK">WORK</a></li>
+                <li><a href="#contact" title="CONTACT">CONTACT</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <!-- hamburger end-->
+        </header>
+        <!--header end-->
+
+
+        <section id="home">
+            <h2>Home</h2>
+            <div class="lettering">
+                <p>JE-HYEOK's Portfolio</p>
+                <p>Web Publisher</p>
+            </div>
+            <div class="center-text">
+                <div class="text"></div>
+            </div>
+            <div class="scroll-down">
+                <div class="scroll">
+                    <span class="scroll-dot"></span>
+                </div>
+                <p>scroll down</p>
+            </div>
+        </section>
+        <!--home end-->
+
+        <section id="about">
+            <div class="about-inner">
+                <h2>About Me</h2>
+                <div class="introduce">
+                    <div class="myImg">
+                        <img src="img/myPic.jpg" alt="호랑이캐릭터">
+                        <div class="hashtag">
+                            <span>#절제력</span>
+                            <span>#성실성</span>
+                            <span>#활동적인</span>
+                            <span>#긍정 에너지</span>
+                        </div>
+                    </div>
+                    <div class="myinfo">
+                        <div class="my">
+                            <img src="img/profile.png" alt="profile">
+                            <span>Profile</span>
+                            <ul>
+                                <li>
+                                    <strong>이름 :</strong> 박제혁
+                                </li>
+                                <li>
+                                    <strong>생년월일 :</strong> 1998.05.20
+                                </li>
+                                <li>
+                                    <strong>거주지 : </strong> 서울시 동작구 대방동
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="my">
+                            <img src="img/about.png" alt="about">
+                            <span>About</span>
+                            <ul>
+                               <li><strong>·</strong> 시간 약속 철저</li>
+                               <li><strong>·</strong> 감정 기복이 없는 사람</li>
+                               <li><strong>·</strong> 꼼꼼한 성격</li>
+                               <li><strong>·</strong> 정리 정돈 중요</li>
+                               <li><strong>·</strong> 자기 절제</li>
+                            </ul>
+                        </div>
+                        <div class="my">
+                            <img src="img/edu.png" alt="edu">
+                            <span>Education</span>
+                            <ul>
+                                <li>
+                                    <strong>2022 : </strong>정보처리기사 필기합격(실기예정)
+                                </li>
+
+                                <li>
+                                    <strong>2023 : </strong>컴퓨터공학사 취득
+                                </li>
+
+                                <li>
+                                    <strong>2023 2~8월 : </strong>이젠 컴퓨터학원 웹퍼블리셔 과정 수료
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+        <!--about end--> 
+
+        <section id="skill">
+            <div class="skill-inner">
+                <h2>Skill</h2>
+                <div class="charts">
+                    <div class="chart">
+                        <p class="html">HTML</p>
+                        <h3 data-num="80">0</h3>
+                        <svg>
+                            <circle cx="80" cy="80" r="60"></circle>
+                        </svg>
+                        <div class="explain">
+                            <p>
+                                HTML 요소와 속성을 사용하여<br>
+                                웹페이지를 구성하고<br>
+                                시멘틱 마크업을 제공할 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chart">
+                        <p>CSS</p>
+                        <h3 data-num="70">0</h3>
+                        <svg>
+                            <circle cx="80" cy="80" r="60"></circle>
+                        </svg>
+                        <div class="explain">
+                            <p>
+                                다양한 시각적 효과를 구현하고<br>
+                                반응형 디자인과<br>
+                                미디어 쿼리를 활용 할 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chart">
+                        <p>JS</p>
+                        <h3 data-num="60">0</h3>
+                        <svg>
+                            <circle cx="80" cy="80" r="60"></circle>
+                        </svg>
+                        <div class="explain">
+                            <p>
+                                자바스크립트를 활용하여<br> 
+                                다양한 동적인 요소를 추가할 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chart">
+                        <p>JQuery</p>
+                        <h3 data-num="60">0</h3>
+                        <svg>
+                            <circle cx="80" cy="80" r="60"></circle>
+                        </svg>
+                        <div class="explain">
+                            <p>
+                                jQuery를 활용하여<br>
+                                웹 개발 과정을<br>
+                                효율적으로 진행 할 수 있습니다.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!--skill end--> 
+        
+        <section id="portfolio">
+            <div class="pf-inner">
+                <h2>Work</h2>
+                <ul class="pfMenu">
+                    <li data-tab="menu1"><a href="#" class="active" title="Global Air">Global Air</a></li>
+                    <li data-tab="menu2"><a href="#" title="Sk pucore">Sk pucore</a></li>
+                </ul>
+                <div class="pfList">
+                    <div class="pfContents on" id="menu1">
+                        <div class="projectImg1">Global Air</div>
+                        <div class="project">
+                            <h3>Global Air</h3>
+                            <p>
+                                항공사 홈페이지 입니다.<br>
+                                대한항공 홈페이지를 참고하여<br>
+                                반응형으로 만들었습니다.
+                            </p>
+                            <p><strong>작업기간 :</strong> 2023.4월~5월 (약 1달)</p>
+                            <p><strong>참여도 :</strong> 100%(개인 프로젝트)</p>
+                            <p class="tool1">
+                                <strong>사용툴 :</strong> 
+                                <span title="포토샵">포토샵</span>
+                                <span title="일러스트">일러스트</span>
+                                <span title="html">html</span>
+                                <span title="css">css</span>
+                                <span title="js">js</span>
+                                <span title="jQuery">jQuery</span>
+                            </p>
+
+                            <a href="http://globalair.dothome.co.kr/main.html" title="사이트 바로가기">사이트 바로가기</a>
+                            <a href="#" class="more">자세히 보기</a>
+                        </div>
+                        <div class="lightbox">
+                            <div class="lightbox-inner">
+                                <img src="img/more1.jpg" alt="프로젝트 더보기">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pfContents" id="menu2">
+                        <div class="projectImg2">SK pucore</div>
+                        <div class="project">
+                            <h3>SK pucore</h3>
+                            <p>
+                                기존에 있는 SK pucore 사이트를 참고하여<br>
+                                반응형으로 만들었습니다.
+                            </p>
+                            <p><strong>작업기간 :</strong> 2023.6.19~30(약 2주)</p>
+                            <p><strong>참여도 :</strong> 100%(개인 프로젝트)</p>
+                            <p class="tool2">
+                                <strong>사용툴 :</strong>
+                                <span title="html">html</span>
+                                <span title="css">css</span>
+                                <span title="jQuery">jquery</span>
+                            </p>
+                            <a href="http://skpractice.dothome.co.kr/index.html">사이트 바로가기</a>
+                            <a href="#" class="more2">자세히 보기</a> 
+                        </div>
+                        <div class="lightbox2">
+                            <div class="lightbox-inner">
+                                <img src="img/more2.jpg" alt="프로젝트 더보기">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--portfolio end--> 
+
+        <section id="contact">
+            <div class="contact-inner">
+                <h2>Contact Me</h2>
+                <ul>
+                    <li>
+                        <img src="img/location.png" alt="location">
+                        <h3>Adress</h3>
+                        <p>서울시 동작구 대방동</p>
+                    </li>
+                    <li>
+                        <img src="img/phone.png" alt="phone">
+                        <h3>Phone</h3>
+                        <p>010-6391-9542</p>
+                    </li>
+                    <li>
+                        <img src="img/email.png" alt="email">
+                        <h3>Email</h3>
+                        <p>qkrwpgur111@naver.com</p>
+                    </li>
+                    <li>
+                        <img src="img/home.png" alt="home">
+                        <h3>Web Site</h3>
+                        <p>https://github.com/wpgur2</p>
+                    </li>
+                </ul>
+                <div class="sendMail">
+                    <h3>Send a message</h3>
+                    <label class="skip">이름입력</label>
+                    <input type="text" placeholder="Enter your Name">
+                    <label class="skip">이메일입력</label>
+                    <input type="email" placeholder="Enter a valid email address">
+                    <textarea name="message" id="message" cols="50" rows="8" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Sand">
+                </div>
+            </div>
+        </section>
+        <!--contact end--> 
+        <section id="movingText">
+            <h2>Moving text</h2>
+            <div class="visite">
+                <div>
+                  <span>Thank you for visite my Portfolio.</span>
+                  <span>Thank you for visite my Portfolio.</span>
+                </div>
+            </div>
+        </section>
+         <!--movingText end--> 
+
+        <footer>
+            <p>Copyright 2023 JH All rights reserved</p>
+        </footer>
+        <!-- footer end-->
+    </div>
+</body>
+</html>
