@@ -659,6 +659,12 @@ footer p{
     font-size: 15px;
 }
 @media screen and (max-width:1550px){
+    .lettering p:nth-child(1) {
+        left: 12%;
+    }
+    .lettering p:nth-child(2) {
+        right: 7%;
+    }
     .myinfo{
         float: left;
         margin-left: 50px;
