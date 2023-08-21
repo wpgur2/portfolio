@@ -228,7 +228,13 @@ $(function(){
     });
 });
 
-
+/*alert */
+$(function(){
+    $('.send').click(function(){
+        alert('이메일 보내기 기능은 구현하지 않았습니다');
+        console.log('asdsad');
+    });
+});
 
 
 
