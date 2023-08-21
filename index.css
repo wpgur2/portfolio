@@ -658,6 +658,15 @@ footer p{
     font-weight: bold;
     font-size: 15px;
 }
+@media screen and (max-width:1550px){
+    .myinfo{
+        float: left;
+        margin-left: 50px;
+    }
+    .visite span{
+        font-size: 80px;
+    }
+}
 @media screen  and (max-width:1250px){
     header .gnb{
         width:1000px;
