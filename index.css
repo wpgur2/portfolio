@@ -216,9 +216,9 @@ header .gnb li a.active{
 }
 .myImg{
     float: left;
-     margin-left: 100PX;
-    
+     margin-left: 100PX;  
 }
+.myImg img{width:100%}
 .hashtag{
     display: flex;
     justify-content: space-evenly;
