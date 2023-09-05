@@ -29,7 +29,7 @@ $(function(){
 
 //타이핑 효과
 $(function(){
-    let content = "안녕하세요,\n 신입 웹 퍼블리셔 \n 박제혁 입니다. ";
+    let content = "안녕하세요,\n 박제혁 입니다. ";
     let text = $(".text");
     let i = 0;
     let typingInterval;
