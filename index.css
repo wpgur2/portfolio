@@ -273,8 +273,11 @@ header .gnb li a.active{
 }
 .my{
     width:50%;
-    padding:10px 24px;
+    padding:15px 50px;
     box-sizing: border-box;
+}
+.my:last-child{
+    width:100%;
 }
 .my span{
     font-size: 20px;
