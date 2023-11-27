@@ -564,6 +564,9 @@ circle{
 .contact-inner ul li p{
     font-size: 14px;
 }
+.contact-inner ul li a{
+    color:#000;
+}
 .sendMail{
     text-align: center;
     width: 420px;
@@ -813,9 +816,7 @@ footer p{
         left: 27%;
     }
     .lettering p:nth-child(2) {
-        top:12%;
-        right: 33%;
-        transform: none
+        display: none;
     }
     .center-text .text { 
         font-size: 25px;
@@ -1058,10 +1059,6 @@ footer p{
     }
     .lettering p:nth-child(1) {
         left: 22%;
-    }
-    .lettering p:nth-child(2) {
-        right: 29%;
-        transform: none;
     }
     .hamburger .line {
         width: 40px;
